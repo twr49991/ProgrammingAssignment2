@@ -1,6 +1,6 @@
 ## These functions use solve to invert a square matrix and cache the result. 
 
-## Invert a square matrix and cache it. 
+## Create a list of functions for getting and setting the value of a matrix. 
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Get and return previously cached inverted matrix. 
+## Get and return previously cached matrix. 
 ## If null, invert matrix and return.
 
 cacheSolve <- function(x, ...) {
